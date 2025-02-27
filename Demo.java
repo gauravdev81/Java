@@ -13,6 +13,6 @@ class Demo{
         //creating an object "c" of class Calculator
         Calculator c = new Calculator();
         int result = c.add(num1,num2);
-        System.out.println(result);
+        System.out.println("The sum of "+ num1+ " and "+num2+ " is "+result);
     }
 }
